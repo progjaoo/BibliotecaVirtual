@@ -1,5 +1,8 @@
-﻿using BibliotecaVirtual.Application.Commands.AdicionarLivro;
-using BibliotecaVirtual.Application.Queries.LivroPorIdQuery;
+﻿using BibliotecaVirtual.Application.Commands.Livro.AdicionarLivro;
+using BibliotecaVirtual.Application.Commands.Livros.Atualizar;
+using BibliotecaVirtual.Application.Commands.Livros.Deletar;
+using BibliotecaVirtual.Application.Queries.Livro.BuscarPorId;
+using BibliotecaVirtual.Application.Queries.Livro.BuscarTodos;
 using BibliotecaVirtual.Core.InterfacesRepositorios;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -10,25 +13,23 @@ namespace BibliotecaVirtual.API.Controllers
     public class LivroController : ControllerBase
     {
         private readonly IMediator _mediator;
-
-        public LivroController(IMediator mediator)
+        private readonly ILivroRepositorio _livroRepositorio;
+        public LivroController(IMediator mediator, ILivroRepositorio livroRepositorio)
         {
             _mediator = mediator;
+            _livroRepositorio = livroRepositorio;
         }
 
-        [HttpGet]
-        public IActionResult BuscarTodos(string query)
+        [HttpGet("buscarTodos")]
+        public async Task <IActionResult> BuscarTodos()
         {
-            //var livro = _livroService.BuscarTodos(query);
+            var buscarTodos = new BuscarTodosQuery();
 
-            //if(livro == null)
-            //{
-            //    return BadRequest();
-            //}
+            var livros = await _mediator.Send(buscarTodos);
 
-            return Ok();
+            return Ok(livros);
         }
-        [HttpGet("{id}")]
+        [HttpGet("buscarPorId/{id}")]
         public async Task <IActionResult> BuscarPorId(int id)
         {
             var query = new LivroPorIdQuery(id);
@@ -36,7 +37,7 @@ namespace BibliotecaVirtual.API.Controllers
 
             return Ok(livro);
         }
-        [HttpPost]
+        [HttpPost("criar")]
         public async Task<IActionResult> Criar([FromBody] AddLivroCommand command)
         {
             var id = await _mediator.Send(command);
@@ -44,23 +45,28 @@ namespace BibliotecaVirtual.API.Controllers
             return CreatedAtAction(nameof(BuscarPorId), new { id = id }, command);
         }
 
-        [HttpPut("{id}")]
-        public IActionResult Atualizar(/*int id, [FromBody] AtualizarLivroModel atualizarLivro*/)
+        [HttpPut("atualizar/{id}")]
+        public async Task<IActionResult> Atualizar([FromBody] AtualizarLivroCommand command)
         {
-            //if (atualizarLivro.Descricao.Length > 1000 == null)
-            //{
-            //    return BadRequest();
-            //}
-            return Ok();
+            await _mediator.Send(command);
+
+            return NoContent();
         }
-        [HttpDelete("{id}")]
-        public IActionResult Deletar(int id)
+        [HttpDelete("deletar/{id}")]
+        public async Task <IActionResult> Deletar(int id)
         {
-            return Ok();
+            var command = new DeletarLivroCommand(id);
+
+            await _mediator.Send(command);
+
+            return NoContent();
         }
         [HttpPost("finalizar/{id}")]
-        public IActionResult FinalizarLeitura(int id)
+        public async Task <IActionResult> FinalizarLeitura(int id)
         {
+            await _livroRepositorio.FinalizarLeitura(id);
+            await _livroRepositorio.SaveChangesAsync();
+
             return Ok();
         }
     }

@@ -24,7 +24,7 @@ namespace BibliotecaVirtual.Infrastructure.Repositorios
             return await _dbcontext.Livro.SingleOrDefaultAsync(l => l.Id == id);
         }
 
-        public async Task<List<Livro>> BuscarTodos()
+        public async Task<List<Livro>> BuscarTodos(string query)
         {
             return await _dbcontext.Livro.ToListAsync();
         }

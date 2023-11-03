@@ -7,7 +7,7 @@ using BibliotecaVirtual.Application.ViewModel;
 using BibliotecaVirtual.Core.InterfacesRepositorios;
 using MediatR;
 
-namespace BibliotecaVirtual.Application.Queries.LivroPorIdQuery
+namespace BibliotecaVirtual.Application.Queries.Livro.BuscarPorId
 {
     public class LivroPorIdQueryHandler : IRequestHandler<LivroPorIdQuery, LivroViewModel>
     {
@@ -24,8 +24,8 @@ namespace BibliotecaVirtual.Application.Queries.LivroPorIdQuery
 
             if (livro == null) return null;
 
-            var livroViewModel = new LivroViewModel(livro.Id, livro.Titulo, livro.Autor);
-            
+            var livroViewModel = new LivroViewModel(livro.Id, livro.Titulo, livro.Descricao, livro.Autor);
+
             return livroViewModel;
         }
     }

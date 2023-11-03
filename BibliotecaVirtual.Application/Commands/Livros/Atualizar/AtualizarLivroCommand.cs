@@ -5,15 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using MediatR;
 
-namespace BibliotecaVirtual.Application.Commands.AdicionarLivro
+namespace BibliotecaVirtual.Application.Commands.Livros.Atualizar
 {
-    public class AddLivroCommand: IRequest<int>
+    public class AtualizarLivroCommand : IRequest<Unit>
     {
         public int Id { get; set; }
-
-        public int IdCategoria { get; set; }
-
-        public int IdUsuario { get; set; }
 
         public string Titulo { get; set; }
 

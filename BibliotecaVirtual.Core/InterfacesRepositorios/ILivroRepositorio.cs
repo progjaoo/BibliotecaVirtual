@@ -4,7 +4,7 @@ namespace BibliotecaVirtual.Core.InterfacesRepositorios
 {
     public interface ILivroRepositorio
     {
-        Task<List<Livro>>BuscarTodos();
+        Task<List<Livro>>BuscarTodos(string query);
         Task<Livro>BuscarPorId(int id);
         Task AddAsync(Livro livro);
         Task Deletar(int id);

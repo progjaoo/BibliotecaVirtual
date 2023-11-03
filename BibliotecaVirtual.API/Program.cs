@@ -1,4 +1,6 @@
-using BibliotecaVirtual.Application.Commands.AdicionarLivro;
+using BibliotecaVirtual.Application.Commands.Livro.AdicionarLivro;
+using BibliotecaVirtual.Application.Commands.Livros.Atualizar;
+using BibliotecaVirtual.Application.Commands.Livros.Deletar;
 using BibliotecaVirtual.Core.Entidades;
 using BibliotecaVirtual.Core.InterfacesRepositorios;
 using BibliotecaVirtual.Infrastructure.Repositorios;
@@ -20,10 +22,13 @@ builder.Services.AddSwaggerGen();
 
 //dependency injection mediator
 builder.Services.AddMediatR(typeof(AddLivroCommand));
+builder.Services.AddMediatR(typeof(AtualizarLivroCommand));
+builder.Services.AddMediatR(typeof(DeletarLivroCommand));
 
 //dependency injection repositories
 builder.Services.AddScoped<ILivroRepositorio, LivroRepositorio>();
 builder.Services.AddScoped<IUsuarioLivroRepositorio, UsuarioLivroRepositorio>();
+builder.Services.AddScoped<ICategoriaRepositorio, CategoriaRepositorio>();
 
 
 var app = builder.Build();

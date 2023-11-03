@@ -4,17 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BibliotecaVirtual.Application.ViewModel;
+using BibliotecaVirtual.Core.Entidades;
 using MediatR;
 
-namespace BibliotecaVirtual.Application.Queries.LivroPorIdQuery
+namespace BibliotecaVirtual.Application.Queries.Categorias.BuscarPorId
 {
-    public class LivroPorIdQuery : IRequest<LivroViewModel>
+    public class BuscarIdCategoriaQuery : IRequest<CategoriaViewModel>
     {
-        public LivroPorIdQuery(int id)
+
+        public BuscarIdCategoriaQuery(int id)
         {
             Id = id;
         }
-
         public int Id { get; set; }
+
     }
 }
