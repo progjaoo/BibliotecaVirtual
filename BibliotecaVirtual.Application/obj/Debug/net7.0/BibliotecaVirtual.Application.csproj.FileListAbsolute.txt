@@ -1,0 +1,15 @@
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Application\bin\Debug\net7.0\BibliotecaVirtual.Application.deps.json
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Application\bin\Debug\net7.0\BibliotecaVirtual.Application.dll
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Application\bin\Debug\net7.0\BibliotecaVirtual.Application.pdb
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Application\bin\Debug\net7.0\BibliotecaVirtual.Core.dll
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Application\bin\Debug\net7.0\BibliotecaVirtual.Core.pdb
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Application\obj\Debug\net7.0\BibliotecaVirtual.Application.csproj.AssemblyReference.cache
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Application\obj\Debug\net7.0\BibliotecaVirtual.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Application\obj\Debug\net7.0\BibliotecaVirtual.Application.AssemblyInfoInputs.cache
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Application\obj\Debug\net7.0\BibliotecaVirtual.Application.AssemblyInfo.cs
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Application\obj\Debug\net7.0\BibliotecaVirtual.Application.csproj.CoreCompileInputs.cache
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Application\obj\Debug\net7.0\BibliotecaVirtual.Application.csproj.CopyComplete
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Application\obj\Debug\net7.0\BibliotecaVirtual.Application.dll
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Application\obj\Debug\net7.0\refint\BibliotecaVirtual.Application.dll
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Application\obj\Debug\net7.0\BibliotecaVirtual.Application.pdb
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Application\obj\Debug\net7.0\ref\BibliotecaVirtual.Application.dll

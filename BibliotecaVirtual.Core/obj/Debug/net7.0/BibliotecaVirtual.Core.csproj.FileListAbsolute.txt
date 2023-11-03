@@ -1,0 +1,14 @@
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Core\bin\Debug\net7.0\BibliotecaVirtual.Core.deps.json
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Core\bin\Debug\net7.0\BibliotecaVirtual.Core.runtimeconfig.json
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Core\bin\Debug\net7.0\BibliotecaVirtual.Core.dll
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Core\bin\Debug\net7.0\BibliotecaVirtual.Core.pdb
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Core\obj\Debug\net7.0\BibliotecaVirtual.Core.csproj.AssemblyReference.cache
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Core\obj\Debug\net7.0\BibliotecaVirtual.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Core\obj\Debug\net7.0\BibliotecaVirtual.Core.AssemblyInfoInputs.cache
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Core\obj\Debug\net7.0\BibliotecaVirtual.Core.AssemblyInfo.cs
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Core\obj\Debug\net7.0\BibliotecaVirtual.Core.csproj.CoreCompileInputs.cache
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Core\obj\Debug\net7.0\BibliotecaVirtual.Core.dll
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Core\obj\Debug\net7.0\refint\BibliotecaVirtual.Core.dll
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Core\obj\Debug\net7.0\BibliotecaVirtual.Core.pdb
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Core\obj\Debug\net7.0\BibliotecaVirtual.Core.genruntimeconfig.cache
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Core\obj\Debug\net7.0\ref\BibliotecaVirtual.Core.dll

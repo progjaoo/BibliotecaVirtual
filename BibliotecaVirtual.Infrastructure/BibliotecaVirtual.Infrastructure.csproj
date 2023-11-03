@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Persistencia\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BibliotecaVirtual.Application\BibliotecaVirtual.Application.csproj" />
+    <ProjectReference Include="..\BibliotecaVirtual.Core\BibliotecaVirtual.Core.csproj" />
+  </ItemGroup>
+
+</Project>

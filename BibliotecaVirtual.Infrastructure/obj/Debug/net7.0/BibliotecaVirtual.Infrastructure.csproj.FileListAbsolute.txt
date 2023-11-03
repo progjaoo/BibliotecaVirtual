@@ -1,0 +1,17 @@
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Infrastructure\bin\Debug\net7.0\BibliotecaVirtual.Infrastructure.deps.json
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Infrastructure\bin\Debug\net7.0\BibliotecaVirtual.Infrastructure.dll
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Infrastructure\bin\Debug\net7.0\BibliotecaVirtual.Infrastructure.pdb
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Infrastructure\obj\Debug\net7.0\BibliotecaVirtual.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Infrastructure\obj\Debug\net7.0\BibliotecaVirtual.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Infrastructure\obj\Debug\net7.0\BibliotecaVirtual.Infrastructure.AssemblyInfo.cs
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Infrastructure\obj\Debug\net7.0\BibliotecaVirtual.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Infrastructure\obj\Debug\net7.0\BibliotecaVirtual.Infrastructure.dll
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Infrastructure\obj\Debug\net7.0\refint\BibliotecaVirtual.Infrastructure.dll
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Infrastructure\obj\Debug\net7.0\BibliotecaVirtual.Infrastructure.pdb
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Infrastructure\obj\Debug\net7.0\ref\BibliotecaVirtual.Infrastructure.dll
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Infrastructure\bin\Debug\net7.0\BibliotecaVirtual.Application.dll
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Infrastructure\bin\Debug\net7.0\BibliotecaVirtual.Core.dll
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Infrastructure\bin\Debug\net7.0\BibliotecaVirtual.Application.pdb
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Infrastructure\bin\Debug\net7.0\BibliotecaVirtual.Core.pdb
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Infrastructure\obj\Debug\net7.0\BibliotecaVirtual.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.Infrastructure\obj\Debug\net7.0\BibliotecaVirtual.Infrastructure.csproj.CopyComplete
