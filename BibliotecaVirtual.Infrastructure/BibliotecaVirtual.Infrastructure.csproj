@@ -7,10 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Persistencia\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\BibliotecaVirtual.Application\BibliotecaVirtual.Application.csproj" />
     <ProjectReference Include="..\BibliotecaVirtual.Core\BibliotecaVirtual.Core.csproj" />
   </ItemGroup>

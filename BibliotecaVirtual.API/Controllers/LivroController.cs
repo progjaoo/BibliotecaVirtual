@@ -45,7 +45,7 @@ namespace BibliotecaVirtual.API.Controllers
             return CreatedAtAction(nameof(BuscarPorId), new { id = id }, command);
         }
 
-        [HttpPut("atualizar/{id}")]
+        [HttpPut("{id}")]
         public async Task<IActionResult> Atualizar([FromBody] AtualizarLivroCommand command)
         {
             await _mediator.Send(command);

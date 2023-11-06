@@ -22,7 +22,7 @@ namespace BibliotecaVirtual.Application.Commands.Livros.Atualizar
             
             var livro = await _livroRepositorio.BuscarPorId(request.Id);
 
-            livro.Update(request.Id, request.Titulo, request.Autor, request.AnoPublicacao, request.Descricao);
+            livro.Update(request.Titulo, request.Autor, request.AnoPublicacao, request.Descricao);
 
             await _livroRepositorio.SaveChangesAsync();
 

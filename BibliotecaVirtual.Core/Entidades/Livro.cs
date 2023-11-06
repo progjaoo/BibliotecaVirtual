@@ -47,9 +47,8 @@ public partial class Livro
             StatusLeitura = StatusLeituraEnum.Lido;
         }
     }
-    public void Update(int id, string titulo, string autor, DateTime? anoPublicacao, string descricao)
+    public void Update(string titulo, string autor, DateTime? anoPublicacao, string descricao)
     {
-        Id = id;
         Titulo = titulo;
         Autor = autor;
         AnoPublicacao = anoPublicacao;

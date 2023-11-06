@@ -28,4 +28,9 @@ public partial class LivroComentario
     public virtual Livro IdLivroNavigation { get; set; }
 
     public virtual Usuario IdUsuarioNavigation { get; set; }
+
+    public void Update(string conteudo)
+    {
+        Conteudo = conteudo;
+    }
 }

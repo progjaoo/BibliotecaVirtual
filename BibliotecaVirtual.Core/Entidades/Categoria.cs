@@ -18,4 +18,9 @@ public partial class Categoria
     public string Nome { get; set; }
 
     public virtual ICollection<Livro> Livro { get; set; } = new List<Livro>();
+
+    public void Update(string nome)
+    {
+        Nome = nome;
+    }
 }

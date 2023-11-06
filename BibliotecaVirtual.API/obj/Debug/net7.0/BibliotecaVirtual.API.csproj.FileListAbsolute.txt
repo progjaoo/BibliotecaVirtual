@@ -83,3 +83,4 @@ C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.API\obj\Debug\net7.
 C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.API\bin\Debug\net7.0\MediatR.dll
 C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.API\bin\Debug\net7.0\MediatR.Contracts.dll
 C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.API\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\joaom\Documents\BibliotecaVirtual\BibliotecaVirtual.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

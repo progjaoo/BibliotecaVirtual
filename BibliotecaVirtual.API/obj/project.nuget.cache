@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eFhKu03NLn6pkD97vSAOjfbeK+lFGQ2/rcF7Oa7pf6VCVWhynUsxhdu0XiDCfEn7kYFEc3wj0t0rd3T5ijELFQ==",
+  "dgSpecHash": "UphXkpT5VpCuGkhPEcjeKIRDRyBsHf/r3dPBKhcK+8ucBU08Z453JAa2qMwwRlk8h/iGFL2bISRYYlzomHQOlQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\joaom\\Documents\\BibliotecaVirtual\\BibliotecaVirtual.API\\BibliotecaVirtual.API.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\joaom\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "C:\\Users\\joaom\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.13\\microsoft.aspnetcore.authentication.jwtbearer.7.0.13.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.13\\microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\joaom\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
