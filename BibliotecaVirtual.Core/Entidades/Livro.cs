@@ -34,7 +34,11 @@ public partial class Livro
 
     public StatusLeituraEnum StatusLeitura { get; set; }
 
+    public StatusEmprestimoEnum StatusEmprestimo { get; set; }
+
     public virtual Categoria IdCategoriaNavigation { get; set; }
+
+    public List<Emprestimo> Emprestimo { get; set; }
 
     public virtual ICollection<LivroComentario> LivroComentario { get; set; } = new List<LivroComentario>();
 
@@ -42,7 +46,7 @@ public partial class Livro
 
     public void Lido()
     {
-        if(StatusLeitura == StatusLeituraEnum.EmAndamento || StatusLeitura == StatusLeituraEnum.Iniciado)
+        if (StatusLeitura == StatusLeituraEnum.EmAndamento || StatusLeitura == StatusLeituraEnum.Iniciado)
         {
             StatusLeitura = StatusLeituraEnum.Lido;
         }
@@ -54,4 +58,12 @@ public partial class Livro
         AnoPublicacao = anoPublicacao;
         Descricao = descricao;
     }
+    public void Emprestar()
+    {
+        if (StatusEmprestimo == StatusEmprestimoEnum.ParaEmprestimo)
+        {
+            StatusEmprestimo = StatusEmprestimoEnum.Emprestado;
+        }
+    }
+
 }

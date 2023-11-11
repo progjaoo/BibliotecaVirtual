@@ -9,8 +9,6 @@ namespace BibliotecaVirtual.Application.Commands.Livro.AdicionarLivro
 {
     public class AddLivroCommand : IRequest<int>
     {
-        public int Id { get; set; }
-
         public int IdCategoria { get; set; }
 
         public int IdUsuario { get; set; }

@@ -27,11 +27,14 @@ public partial class Usuario
 
     public string Papel { get; set; } = "Usuario";
 
+    public List<Emprestimo> Emprestimo { get; set; }
+
+
     public virtual ICollection<LivroComentario> LivroComentario { get; set; } = new List<LivroComentario>();
 
     public virtual ICollection<UsuarioLivro> UsuarioLivro { get; set; } = new List<UsuarioLivro>();
 
-    public void Update(string nomeCompleto,string senha)
+    public void Update(string nomeCompleto, string senha)
     {
         NomeCompleto = nomeCompleto;
         Senha = senha;

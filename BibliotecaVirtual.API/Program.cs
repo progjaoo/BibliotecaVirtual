@@ -2,6 +2,7 @@ using System.Text;
 using BibliotecaVirtual.Application.Commands.Categorias.Adicionar;
 using BibliotecaVirtual.Application.Commands.Categorias.Atualizar;
 using BibliotecaVirtual.Application.Commands.Categorias.Deletar;
+using BibliotecaVirtual.Application.Commands.Emprestimo.AdicionarEmprestimo;
 using BibliotecaVirtual.Application.Commands.Livro.AdicionarLivro;
 using BibliotecaVirtual.Application.Commands.LivroComentario.AddComentario;
 using BibliotecaVirtual.Application.Commands.LivroComentario.AtualizarComentario;
@@ -103,6 +104,8 @@ builder.Services.AddMediatR(typeof(AdicionarComentarioCommand));
 builder.Services.AddMediatR(typeof(AtualizarComentarioCommand));
 builder.Services.AddMediatR(typeof(DeletarComentarioCommand));
 
+builder.Services.AddMediatR(typeof(AddEmprestimoCommand));
+
 
 
 
@@ -112,6 +115,7 @@ builder.Services.AddScoped<IUsuarioLivroRepositorio, UsuarioLivroRepositorio>();
 builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 builder.Services.AddScoped<ICategoriaRepositorio, CategoriaRepositorio>();
 builder.Services.AddScoped<ILivroComentarioRepositorio, LivroComentarioRepositorio>();
+builder.Services.AddScoped<IEmprestimoRepositorio, EmprestimoRepositorio>();
 
 //AUTENTICACAO SERVICE
 builder.Services.AddScoped<IServicoAutenticacao, AutenticacaoService>();

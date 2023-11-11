@@ -45,7 +45,7 @@ namespace BibliotecaVirtual.Infrastructure.Repositorios
             var obj = await _dbcontext.Livro.SingleOrDefaultAsync(l => l.Id == id);
 
             if (obj == null)
-                throw new Exception("O Curso nao existe");
+                throw new Exception("O Livro nao existe");
             await RemoverAsync(obj);
         }
         public async Task RemoverAsync(Livro livro)

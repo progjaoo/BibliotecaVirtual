@@ -13,11 +13,9 @@ namespace BibliotecaVirtual.API.Controllers
     public class LivroController : ControllerBase
     {
         private readonly IMediator _mediator;
-        private readonly ILivroRepositorio _livroRepositorio;
-        public LivroController(IMediator mediator, ILivroRepositorio livroRepositorio)
+        public LivroController(IMediator mediator)
         {
             _mediator = mediator;
-            _livroRepositorio = livroRepositorio;
         }
 
         [HttpGet("buscarTodos")]
@@ -64,10 +62,11 @@ namespace BibliotecaVirtual.API.Controllers
         [HttpPost("finalizar/{id}")]
         public async Task <IActionResult> FinalizarLeitura(int id)
         {
-            await _livroRepositorio.FinalizarLeitura(id);
-            await _livroRepositorio.SaveChangesAsync();
+            var deletar = new DeletarLivroCommand(id);
 
-            return Ok();
+            await _mediator.Send(deletar);
+
+            return NoContent();
         }
     }
 }

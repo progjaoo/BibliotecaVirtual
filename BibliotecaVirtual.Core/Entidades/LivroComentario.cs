@@ -7,6 +7,7 @@ namespace BibliotecaVirtual.Core.Entidades;
 
 public partial class LivroComentario
 {
+
     public LivroComentario(int idUsuario, int idLivro, string conteudo)
     {
         IdUsuario = idUsuario;

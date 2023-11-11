@@ -13,11 +13,9 @@ namespace BibliotecaVirtual.API.Controllers
     public class CategoriaController : ControllerBase
     {
         private readonly IMediator _mediator;
-        private readonly ICategoriaRepositorio _categoriaRepositorio;
-        public CategoriaController(IMediator mediator, ICategoriaRepositorio categoriaRepositorio)
+        public CategoriaController(IMediator mediator)
         {
             _mediator = mediator;
-            _categoriaRepositorio = categoriaRepositorio;
         }
 
         [HttpGet]

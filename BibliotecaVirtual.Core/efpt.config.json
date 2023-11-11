@@ -20,6 +20,10 @@
          "ObjectType": 0
       },
       {
+         "Name": "[dbo].[Emprestimo]",
+         "ObjectType": 0
+      },
+      {
          "Name": "[dbo].[Livro]",
          "ObjectType": 0
       },
@@ -41,7 +45,7 @@
    "UseBoolPropertiesWithoutDefaultSql": false,
    "UseDatabaseNames": false,
    "UseDateOnlyTimeOnly": false,
-   "UseDbContextSplitting": true,
+   "UseDbContextSplitting": false,
    "UseFluentApiOnly": true,
    "UseHandleBars": false,
    "UseHierarchyId": false,
