@@ -28,6 +28,4 @@ public partial class Emprestimo
     public virtual Livro IdLivroNavigation { get; set; }
 
     public virtual Usuario IdUsuarioNavigation { get; set; }
-
-
 }
