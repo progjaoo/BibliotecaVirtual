@@ -7,4 +7,5 @@ Projeto pessoal que estou desenvolvendo, uma biblioteca virtual para controle pe
   + Entity Framework Core
   + Arquitetura Limpa
   + Padrão Repositório
+  + Autenticação e Autorização com Token JWT
     
